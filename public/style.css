@@ -1,0 +1,141 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2019/02/business-success-1.jpg?resize=1280%2C640&ssl=1') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-text h2 {
+    font-size: 3em;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #f3c431;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.about-section, .services-section, .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.service h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.about, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* New Styles for the Service Images Hover Effect */
+.services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service {
+    flex: 1 1 30%; /* Ensures three items fit in a row */
+    text-align: center;
+    overflow: hidden; /* Prevents overflow of image */
+    border-radius: 10px; /* Optional: adds rounded corners to the service item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow */
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.service img {
+    width: 100%;
+    border-radius: 10px; /* Optional: adds rounded corners to the image */
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.service:hover {
+    transform: scale(1.05); /* Slight zoom-in for the entire service item */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Optional: increases shadow on hover */
+}
+
+.service img:hover {
+    transform: scale(1.1); /* Zooms in the image on hover */
+}

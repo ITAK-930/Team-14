@@ -1,0 +1,40 @@
+.hero {
+    background: url('https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2019/02/business-success-1.jpg?resize=1280%2C640&ssl=1') 
+        no-repeat center center/cover; /* Fullscreen background image */
+    color: black; /* Black text for readability */
+    text-align: center; /* Center-align text */
+    padding: 100px 20px; /* Space around the content */
+}
+
+.hero-text {
+    max-width: 800px; /* Limit width of text content */
+    margin: 0 auto; /* Center align content */
+    padding: 20px; /* Add some padding */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.hero-text h2 {
+    font-size: 3em; /* Large heading */
+    margin: 0 0 20px; /* Add space below the heading */
+}
+
+.hero-text p {
+    font-size: 1.2em; /* Slightly larger font for readability */
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.cta-button {
+    padding: 15px 30px; /* Button size */
+    background-color: #f3c431; /* Accent color */
+    color: #333; /* Dark text color for contrast */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold font for emphasis */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+}
+
+.cta-button:hover {
+    background-color: #333; /* Dark background on hover */
+    color: #fff; /* White text on hover */
+}

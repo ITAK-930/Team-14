@@ -1,0 +1,40 @@
+header {
+    background-color: #333; /* Dark background for the header */
+    padding: 10px 20px; /* Space inside the header */
+    color: #fff; /* White text color */
+}
+
+nav {
+    display: flex; /* Flexbox layout for navigation */
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Center items vertically */
+}
+
+.logo h1 {
+    font-size: 1.8em; /* Slightly larger font for the logo */
+    margin: 0; /* Remove default margin */
+    color: #fff; /* Ensure white color for the logo text */
+}
+
+.logo span {
+    color: #f3c431; /* Accent color for the "MARKETINGS" part */
+}
+
+.nav-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Arrange links horizontally */
+    gap: 20px; /* Space between links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links li a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold font for emphasis */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-links li a:hover {
+    color: #f3c431; /* Change link color on hover */
+}
